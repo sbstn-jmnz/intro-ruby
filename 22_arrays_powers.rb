@@ -10,7 +10,8 @@ example_array = ['hello', 'Edutecno', '0048', true, false, nil, 1, 2, 3, nil]
 example_array.at 2 
 
 # fetch dispara un error cuando no encuetra el índice
-# puts example_array.fetch 15 
+example_array.fetch 15 
+example_array[15]
 
 # Eliminando elementos de un arreglo. Con el delete debemos pasar el elemento que queremos eliminar. Otra método es delete_at, que funciona con índice
 
